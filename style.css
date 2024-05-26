@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* nav sert */
+nav{
+   border-bottom: 3px solid #dddd;
+    /* width: 1880px; */
+    /* height: 130px; */
+    margin: 0 auto;
+    box-shadow: 0 5px 5px rgba(128, 128, 128,.5);
+}
+.container{
+    width: 1143px;
+    margin: 0 auto;
+    padding-bottom: 34px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.flex img{
+    margin-top: 27px;
+    margin-bottom: 13px;
+}
+.container .flex ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.container .flex ul li{
+    list-style: none;
+    margin-top: 39px;
+    margin-bottom: 26px;
+
+}
+.container .flex ul li a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: auto;
+    color:#000000;
+    transition: all .7s ease;
+}
+.container .flex ul li a:hover{
+    color:#0056B3;
+}
+.container .flex button{
+    width: 130px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00A65C;
+}
+.container .flex button a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: auto;
+    color:#ffff;
+    padding: 11px 0;
+    display:inline-block;
+}
+.container .flex .right{
+    padding-right: 10.81px;
+}
+/*------------------- nav end------------------ */
+/*--------------------------- hero srt----------------- */
+#hero{
+
+}
+#hero .flex h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: auto;
+    color:#003379;
+}
+#hero .flex img{
+    margin-top: 64px;
+}
+
+
+
+/*------------------ hero end----------------------*/
